@@ -40,6 +40,11 @@
 		margin: 0 0 150px 0;
 	}
 
+    .table td
+    {
+        text-align: center;
+    }
+
     .puntaje_rojo
     {
     border-collapse: collapse;
