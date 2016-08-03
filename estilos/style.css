@@ -39,7 +39,126 @@
 		width: 70%;
 		margin: 0 0 150px 0;
 	}
+
+    .puntaje_rojo
+    {
+    border-collapse: collapse;
+    width: 100%;
+    position: center;
+    }
+    .puntaje_rojo table 
+    {
+        margin: 0 0 0px 300px;
+        float: left;
+    }
+
+    .puntaje_rojo th, td 
+    {
+        text-align: left;
+        padding: 8px;
+    }
+
+    .puntaje_rojo tr:nth-child(even){background-color: #f2f2f2}
+
+    .puntaje_rojo th
+    {
+        background-color: #FF3B3B;
+        color: white;
+    }
+    
+    .puntaje_azul
+    {
+    border-collapse: collapse;
+    width: 100%;
+    }
+    .puntaje_azul table 
+    {
+        margin: 0 0 0px 610px;
+    }
+
+    .puntaje_azul th, td 
+    {
+        text-align: left;
+        padding: 8px;
+    }
+
+    .puntaje_azul tr:nth-child(even){background-color: #f2f2f2}
+
+    .puntaje_azul th
+    {
+        background-color: #5581BA;
+        color: white;
+    }
+
+    .jugador
+    {
+        background-image: url(../img/jugador_premio.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        width: 36%;
+        height: 200px;
+        float: left;
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+        border: 3px solid green;
+    }
+
+    .jugador h1
+    {
+        text-align: center;
+        margin: 45px 0 0 100px;
+    }
+
+    .goleador
+    {
+        background-image: url(../img/goleador_premio.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        width: 20%;
+        height: 200px;
+        float: left;
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+        border: 3px solid green;
+    }
+    .hablador
+    {
+        background-image: url(../img/hablador_premio.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        width: 20%;
+        height: 200px;
+        float: left;
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+        border: 3px solid green;
+    }
+    .hachero
+    {
+        background-image: url(../img/hacha_premio.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        width: 20%;
+        height: 200px;
+        float: left;
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+        border: 3px solid green;
+    }
 	
+    .noticias
+    {
+        clear:left;
+        text-align: left;
+    }
 
     /* Add a gray background color and some padding to the footer */
     footer {
