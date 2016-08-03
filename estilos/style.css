@@ -5,13 +5,13 @@
       background-color: #49753E;
     }
 
-    .navbar-brand {
+    .nav-logo {
     	float:left;
     	background: url(../img/logo_martes.png) 0 0 no-repeat;
     	width: 526px;
     	height: 67px;
-    	margin: 15px;
-    	position: relative;
+    	margin: 15px 0 10px 90px;
+        position: relative;
     }
 
     .nav-tabs {
