@@ -95,6 +95,16 @@
         color: white;
     }
 
+    .jugador span
+    {
+        
+        font-size: 3.6em;
+        font-weight: bold;
+        text-align: center;
+        min-width: 2em;
+        margin: 45px 0 0 100px;
+    }
+
     .jugador
     {
         background-image: url(../img/jugador_premio.png);
@@ -108,12 +118,7 @@
         padding: 10px;
         text-align: center;
         border: 3px solid green;
-    }
-
-    .jugador h1
-    {
-        text-align: center;
-        margin: 45px 0 0 100px;
+        overflow: hidden;
     }
 
     .goleador
@@ -159,6 +164,10 @@
         border: 3px solid green;
     }
 	
+    .separador
+    {
+        clear:left;
+    }
     .noticias
     {
         clear:left;
